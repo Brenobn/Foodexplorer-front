@@ -7,6 +7,10 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  :root {
+    font-size: 62,5%;
+  }
+
   body {
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
     color: ${({ theme }) => theme.COLORS.WHITE};
@@ -18,7 +22,7 @@ export default createGlobalStyle`
     font-family: 'DM Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 16rem;
     outline: none;
   }
 
