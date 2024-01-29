@@ -12,6 +12,14 @@ export default createGlobalStyle`
     color: ${({ theme }) => theme.COLORS.WHITE};
   }
 
+  body, input, button, textare, a {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    outline: none;
+  }
+
   a {
     text-decoration: none;
   }
