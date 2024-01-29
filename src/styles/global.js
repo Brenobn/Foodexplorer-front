@@ -22,7 +22,7 @@ export default createGlobalStyle`
     font-family: 'DM Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-size: 16rem;
+    font-size: 1.6rem;
     outline: none;
   }
 
