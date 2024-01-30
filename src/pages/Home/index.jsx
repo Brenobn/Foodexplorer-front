@@ -5,7 +5,7 @@ import { Button } from "../../components/Button";
 export function Home() {
   return(
     <Container>
-      <Button />
+      <Button title="incluir" />
     </Container>
   );
 }
