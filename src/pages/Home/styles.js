@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   max-width: 42.8rem;
-  height: 151.1rem;
+  height: 157.1rem;
 
   margin: 0 auto;
 
@@ -47,4 +47,19 @@ export const OutdoorParagraph = styled.p`
 
   padding: 0.3rem 1.4rem 2.2rem 17.0rem;
 
+`;
+
+export const Section = styled.h3`
+  color: ${({ theme }) => theme.COLORS.WHITE};
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+
+  margin: 6.2rem 30.0rem 2.4rem 2.4rem;
+`;
+
+export const DishesContainer = styled.div`
+  display: inline-flex;
+  align-items: center;
+  gap: 1.6rem;
 `;
