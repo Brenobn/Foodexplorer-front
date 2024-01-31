@@ -1,11 +1,22 @@
-import { Container } from "./styles";
+import { Container, Outdoor, OutdoorTitle, OutdoorParagraph } from "./styles";
 
-import { Button } from "../../components/Button";
+import { Header } from "../../components/Header";
+
+import CockiesImg from "../../assets/Cockies.png";
 
 export function Home() {
   return(
     <Container>
-      <Button title="incluir" />
+      <Header />
+      <Outdoor>
+        <img src={CockiesImg} alt="Foto de macorons com frutas"/>
+        <OutdoorTitle>
+          Sabores inigualáveis
+        </OutdoorTitle>
+        <OutdoorParagraph>
+          Sinta o cuidado do preparo com ingredientes selecionados.
+        </OutdoorParagraph>
+      </Outdoor>
     </Container>
   );
 }
