@@ -44,6 +44,8 @@ export const DishDescription = styled.p`
   font-size: 1.6rem;
   font-weight: 400;
   padding-bottom: 2.4rem;
+
+  width: 31.6rem;
 `;
 
 export const DishContainer = styled.div`
