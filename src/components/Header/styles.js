@@ -18,6 +18,10 @@ export const LogoContainer = styled.div`
   gap: 1.6rem;
 
   margin: 5.6rem 2.8rem 2.4rem 2.8rem;
+
+  > svg {
+    color: ${({ theme }) => theme.COLORS.SIMPLE_WHITE};
+  }
 `;
 
 export const Logo = styled.div`
