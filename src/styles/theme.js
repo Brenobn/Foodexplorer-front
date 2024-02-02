@@ -12,6 +12,7 @@ export default {
     LIGHT_GRAY: "#C4C4CC",
     GRAY: "#4D585E",
     GRAY_100: "#7C7C8A",
+    GRAY_200: "#76797b",
 
     LIGHT_RED: "#AB4D55",
     RED: "#750310"
