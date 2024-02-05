@@ -2,8 +2,9 @@ import {
   Container, 
   Logo, 
   LinkToCreateAccount, 
-  PageContainer, 
-  FormContainer 
+  Main, 
+  FormContainer,
+  Title 
 } from "./styles";
 
 import Polygon from "../../assets/Polygon1.svg";
@@ -14,12 +15,15 @@ import { Button } from "../../components/Button";
 export function SignUp() {
   return(
     <Container>
-      <PageContainer>
+      <Main>
         <Logo>
           <img src={Polygon} alt="Logo do app" />
           food explorer
         </Logo>
         <FormContainer>
+          <Title>
+            Crie sua conta
+          </Title>
           <Input 
             placeholder="Exemplo: Maria da Silva"
             labelPlaceholder="Seu nome"
@@ -39,11 +43,11 @@ export function SignUp() {
             title="Criar conta" 
             type="submit"
           />
+          <LinkToCreateAccount>
+            Já tenho uma conta
+          </LinkToCreateAccount>
         </FormContainer>
-        <LinkToCreateAccount>
-          Já tenho uma conta
-        </LinkToCreateAccount>
-      </PageContainer>
+      </Main>
     </Container>
   );
 }
