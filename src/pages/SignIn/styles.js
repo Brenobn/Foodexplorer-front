@@ -1,18 +1,19 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 42.8rem;
-  height: 92.6rem;
-
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
 
   background: ${({ theme }) => theme.COLORS.BAKCGROUND_900};
+
+
 `;
 
 export const Logo = styled.h1`
   color: ${({ theme }) => theme.COLORS.SIMPLE_WHITE};
   font-family: 'Roboto', sans-serif;
-  font-size: 3.7rem;
+  font-size: 3.7vw;
   font-weight: 700;
 
   display: inline-flex;
@@ -20,8 +21,17 @@ export const Logo = styled.h1`
   gap: 1.0rem;
 
   > img {
-    width: 4.3rem;
-    height: 4.3rem;
+    width: 4.3vw;
+    height: 4.3vw;
+  }
+
+  @media(min-width: 1024px) {
+    font-size: 4.2vw;
+    margin-bottom: 10.0rem;
+
+    > img {
+      width: 4.7vw;
+    }
   }
 `;
 
@@ -35,12 +45,19 @@ export const LinkToCreateAccount = styled.a`
   font-weight: 500;
 `;
 
-export const PageContainer = styled.div`
+export const Main = styled.main`
   display: flex;
   padding: 15.8rem 4.7rem 23.5rem 6.5rem;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   gap: 7.3rem;
+
+  @media(min-width: 1024px) {
+    flex-direction: row;
+    gap: 20.0rem;
+    max-width: fit-content;
+  }
 `;
 
 export const FormContainer = styled.form`
@@ -49,5 +66,22 @@ export const FormContainer = styled.form`
   align-items: center;
   gap: 3.2rem;
 
-  width: 31.6rem;
+  width: 32.0rem;
+
+  @media(min-width: 1024px) {
+    max-width: 48.0vw;
+  }
+`;
+
+export const Title = styled.h2`
+  color: ${({ theme }) => theme.COLORS.SIMPLE_WHITE};
+  text-align: center;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 500;
+
+  @media(max-width: 1024px) {
+    display: none;
+  }
 `;
