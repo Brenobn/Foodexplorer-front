@@ -1,7 +1,7 @@
 ### Food Explorer - Aplicação Front End
 
 <p align-itens="center" >
-  <img width="600" height="400" src="./src/assets/Readme.png">
+  <img width="600" height="400" src="/src/assets/Readme.png">
 </p>
 
 ## Sobre o Projeto 
