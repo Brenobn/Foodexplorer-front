@@ -1,8 +1,36 @@
-# React + Vite
+### Food Explorer - Aplicação Front End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align-itens="center" >
+  <img src="./src/assets/Readme.png">
+</p>
 
-Currently, two official plugins are available:
+## Sobre o Projeto 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ FoodExplorer, um E-commerce de restaurante moderno e intuitivo. Este projeto é desenvolvido com React, JavaScript, Vite, NodeJS, e outras tecnologias incríveis. Integração com Foodexplorer-api: Conecte-se perfeitamente com a Foodexplorer-api para obter dados em tempo real
+
+ 🔨 Tecnologias Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+ - JavaScript
+ - NodeJs
+ - React
+ - Styled-components
+ - React-icons
+ - Vite
+
+📚 Requisitos Ter Git para clonar o projeto. Ter Node.js instalado. 🚀 Começando
+
+Clonar o projeto:
+$ https://github.com/Brenobn/Foodexplorer-front.git
+
+💻 Iniciando Foodexplorer-front
+
+Acessar no diretório da aplicação web:
+$ cd Foodexplorer-front
+
+Instalar as dependências:
+$ npx
+
+Rodar a aplicação:
+$ npm run dev
+
+Feito com ❤️ por Breno Braga 👋🏻
