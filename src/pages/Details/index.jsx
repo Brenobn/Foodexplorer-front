@@ -23,41 +23,41 @@ import { PiCaretLeft } from "react-icons/pi";
 
 export function Details() {
   return(
-    <Container>
+    <>
       <Header />
-      <DishContainer>
+      <Container>
         <WayBack>
           <PiCaretLeft />
           voltar
         </WayBack>
-        <img src={Ravanello} alt="Foto de um prato de salada Ravanello" />
-        <DishData>
-          <DishName>
-            Salada Ravanello
-          </DishName>
-          <DishDescription>
-            Rabanetes, folhas verdes e molho agridoce salpicados com gergelim.
-          </DishDescription>
-          <IngredientsContainer>
-            <Ingredients title="alface"/> 
-            <Ingredients title="cebola"/> 
-            <Ingredients title="pão naan"/>
-          </IngredientsContainer>
-          <IngredientsContainer>
-            <Ingredients title="pepino"/> 
-            <Ingredients title="rabanete"/> 
-            <Ingredients title="tomate"/>  
-          </IngredientsContainer>
-        </DishData>
-        <AddOrRemoveContainer>
-          <AddItem />
-          <ButtonToAddItem>
-            <PiReceiptBold />
-            pedir ∙ R$ 25,00
-          </ButtonToAddItem>
-        </AddOrRemoveContainer>
-      </DishContainer>
+        <DishContainer>
+          <img src={Ravanello} alt="Foto de um prato de salada Ravanello" />
+          <DishData>
+            <DishName>
+              Salada Ravanello
+            </DishName>
+            <DishDescription>
+              Rabanetes, folhas verdes e molho agridoce salpicados com gergelim.
+            </DishDescription>
+            <IngredientsContainer>
+              <Ingredients title="alface"/> 
+              <Ingredients title="cebola"/> 
+              <Ingredients title="pão naan"/>
+              <Ingredients title="pepino"/> 
+              <Ingredients title="rabanete"/> 
+              <Ingredients title="tomate"/> 
+            </IngredientsContainer>
+            <AddOrRemoveContainer>
+              <AddItem />
+              <ButtonToAddItem>
+                <PiReceiptBold />
+                pedir ∙ R$ 25,00
+              </ButtonToAddItem>
+            </AddOrRemoveContainer>
+          </DishData>
+        </DishContainer>
+      </Container>
       <Footer />
-    </Container>
+    </>
   );
 }
