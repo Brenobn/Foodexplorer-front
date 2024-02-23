@@ -1,6 +1,6 @@
-### Food Explorer - Aplicação Front End
-
 <img width="2064" alt="Readme Perfeito" src="https://github.com/Brenobn/Foodexplorer-front/assets/107485462/2eec8dea-c8e4-4e3c-bf9d-554d5450e3e6">
+
+### Food Explorer - Aplicação Front End
 
 ## Sobre o Projeto 
 
